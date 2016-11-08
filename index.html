@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <title>extend()メソッドの使い方</title>
+  <link rel="stylesheet" href="/common/css/style.css" media="all">
+  <script src="/common/js/jquery.js"></script>
+  <script src="/common/js/extend.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="header">
+    <h2 class="title">extend()メソッドの使い方</h2>
+  </div>
+  <!-- /.header -->
+
+  <div class="contents">
+    <div class="grid-cmn cols03">
+
+      <div class="col">
+        <div class="btn-cmn js-test01">js-test01</div>
+        <div class="box-cmn">
+          <p>$('.js-test01').testFunction({<br><span class="indent"></span>target:'.js-target',<br><span class="indent"></span>addClass:'is-active'<br>});</p>
+          <p>.is-active {<br><span class="indent">background: #f00;</span><br>}</p>
+        </div>
+        <div class="js-target">js-target</div>
+        <!-- /.js-target -->
+      </div>
+
+      <div class="col">
+        <div class="btn-cmn js-test02">js-test02</div>
+        <div class="box-cmn">
+          <p>$('.js-test02').testFunction({<br><span class="indent"></span>speed:100<br>});</p>
+        </div>
+        <div class="js-target">js-target</div>
+      </div>
+
+      <div class="col">
+        <div class="btn-cmn js-test03">js-test03</div>
+        <div class="box-cmn">
+          <p>$('.js-test03').testFunction({<br><span class="indent"></span>addClass:'is-active'<br>});</p>
+        </div>
+        <div class="js-target">js-target</div>
+      </div>
+
+    </div>
+
+
+
+
+  </div><!-- /contents -->
+
+</div><!-- /wrapper -->
+
+<footer class="footer">
+  <div class="footer-in">
+  </div><!-- /footer-in -->
+</footer>
+</body>
+</html>
